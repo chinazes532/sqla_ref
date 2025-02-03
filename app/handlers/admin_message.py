@@ -30,5 +30,4 @@ async def admin_panel(message: Message):
     )
 
     await message.answer(text=response,
-                         parse_mode="HTML",
                          reply_markup=ikb.admin_panel)
